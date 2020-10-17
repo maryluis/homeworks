@@ -1,0 +1,25 @@
+
+a[href*=https]{
+    color: red;
+}
+ul.list li:nth-child(4n) a {
+    background-color: green;
+}
+.text-box h3:first-of-type {
+    color: pink;
+}
+#greycol {
+    color: gray;
+}
+.text-box div p {
+    color: red;
+}
+.text-box p:nth-last-child(2) {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.holder p:first-of-type{
+    font-size: 26px;
+}

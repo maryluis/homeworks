@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+.lorem {
+    position: relative;
+}
+.image1 {
+    background-image: url(./images/1.png);
+    width: 200px;
+    height: 100px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.image2 {
+    background-image: url(./images/2.png);
+    background-size: 80%;
+    background-position: right;
+    width: 250px;
+    height: 150px;
+    background-repeat: no-repeat;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+}
+.text {
+    padding: 0%;
+    margin: 0%;
+    text-align: justify;
+}
+p {
+    padding: 0%;
+    margin: 0%;
+}

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 800px;
+    height: 800px;
+}
+.colors {
+    position: relative;
+}
+.pink {
+    width: 400px;
+    height: 400px;
+    background-color: palevioletred;
+}
+.blue {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 25%;
+    width: 400px;
+    height: 400px;
+    background-color: lightseagreen;
+}
+.salad {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: limegreen;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
